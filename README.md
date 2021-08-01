@@ -1,3 +1,5 @@
+<h1><strong>SURVEY API</strong></h1>
+<p><strong>Simple API to enable creating surveys and voting for the one or more survey</strong></p>
 <p><strong>Libraries Used</strong><br />Express : web application framework<br />Morgan : logging<br />Cors:cors<br />lowDb: persisting data to disk in JSON format<br />SwaggerUI &amp; SwaggerJsDoc: for documentation<br />Fs &amp; path : persisting logs to file<br />Docker: containerization<br />jest &amp; supertest for unit and integration testing</p>
 <p><strong>How to Setup</strong></p>
 <ol>
