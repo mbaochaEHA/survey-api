@@ -3,7 +3,11 @@
 <p><strong>Libraries Used</strong><br />Express : web application framework<br />Morgan : logging<br />Cors:cors<br />lowDb: persisting data to disk in JSON format<br />SwaggerUI &amp; SwaggerJsDoc: for documentation<br />Fs &amp; path : persisting logs to file<br />Docker: containerization<br />jest &amp; supertest for unit and integration testing</p>
 <p><strong>How to Setup</strong></p>
 <ol>
-<li>The command bellow will pull the images from docker hub and execute locally. Subsequently running the command will execute from locally downloaded docker image. This assumes that port 9000 is currently free on your local system. Else change to another available port<br /><em>docker run -it -p 9000:3000 survey-api 9096543/survey-api</em></li>
+<li>The command bellow will pull the images from docker hub and execute locally. Subsequently running the command will execute from locally downloaded docker image. This assumes that port 9000 is currently free on your local system. Else change to another available port<br />
+<div>
+<div><em>docker run -it -p 9000:3000 9096543/survey-api</em></div>
+</div>
+</li>
 <li>On successful start, you will see the message&nbsp;<em><code>Backend is running on http://localhost:9000</code></em></li>
 <li>Swagger integrated to make testing and documentation easy. To access the swagger end point go to<br /><em><a href="http://localhost:9000/api-docs/" rel="nofollow">http://localhost:9000/api-docs/</a></em></li>
 <li>The easiest way to test this endpoint is via the swagger endpoint above. However, for clarity, The following end point are exposed
