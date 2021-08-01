@@ -1,0 +1,20 @@
+{
+  "surveys": [
+    {
+      "id": 2,
+      "question": "Are you older than 18?",
+      "response": {
+        "yes": 0,
+        "no": 1
+      }
+    },
+    {
+      "id": 3,
+      "question": "Do you like rice?",
+      "response": {
+        "yes": 1,
+        "no": 0
+      }
+    }
+  ]
+}

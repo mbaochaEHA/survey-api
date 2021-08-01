@@ -1,0 +1,20 @@
+{
+  "surveys": [
+    {
+      "id": 1,
+      "question": "Are you an adult?",
+      "response": {
+        "yes": 2,
+        "no": 1
+      }
+    },
+    {
+      "id": 2,
+      "question": "Are you a Female?",
+      "response": {
+        "yes": 0,
+        "no": 1
+      }
+    }
+  ]
+}
